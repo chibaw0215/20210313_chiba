@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+  <link rel="stylesheet" href="css/service.css">
+  <link rel="stylesheet" href="css/reset.css">
+
+  
+</head>
+
+<header>
+  <div class="hlink">
+    <h2><a class="hlink-logo" href="index.html">TECH</a></h2>
+
+    <nav class="hlink-list">
+      <ul>
+        <li><a class="hlink-item" href="index.html">ホーム</a></li>
+        <li><a class="hlink-item" href="service.html">事業内容</a></li>
+        <li><a class="hlink-item" href="news.html">ニュース</a></li>
+        <li><a class="hlink-item" href="blog.html">社員ブログ</a></li>
+        <li><a class="hlink-item" href="company.html">会社概要</a></li>
+        <li><a class="hlink-item" href="recruit.html">採用情報</a></li>
+        <li><a class="hlink-item" href="contact.html">お問い合わせ</a></li>
+
+      </ul>
+    </nav>
+  </div>
+
+  <nav class="menu">
+    <ul>
+      <li><a class="menu" href="index.html">ホーム</a></li>
+      <li><a class="menu" href="service.html">事業内容</a></li>
+      <li><a class="menu" href="news.html">ニュース</a></li>
+      <li><a class="menu" href="blog.html">社員ブログ</a></li>
+      <li><a class="menu" href="company.html">会社概要</a></li>
+      <li><a class="menu" href="recruit.html">採用情報</a></li>
+      <li><a class="menu" href="contact.html">お問い合わせ</a></li>
+
+    </ul>
+  </nav>
+
+  <div class="menu__button">
+    <span></span><span></span><span></span>
+  </div>
+
+</header>
+
+
+<body>
+<main>
+  
+    <div class="service-top">
+      <h3>事業内容</h3>
+    </div>
+
+
+    <div class="service-main">
+      <div class="service-wrap">
+        <div class="service-item ">
+          <div class="service-img">
+            <img src="img/service1.png" alt="">
+        
+          </div>
+          <div　class="service-text">
+            <h3>IT人材育成事業</h3>
+            <p>これまでに培った教育手法を生かして、短期間で即戦力のIT人材を育成します。</p>
+          </div>
+        
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="img/service2.png" alt="">
+        
+          </div>
+          <div　class="service-text">
+            <h3>コーチング事業</h3>
+            <p>目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</p>
+          </div>
+        
+        </div>
+        <div class="service-item">
+          <div class="service-img">
+            <img src="img/service3.png" alt="">
+        
+          </div>
+          <div　class="service-text">
+            <h3>ITコンサル事業</h3>
+            <p>経営戦略にIT戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</p>
+          </div>
+        
+        </div>
+        <div class="service-item service-item-4">
+          <div class="service-img">
+            <img src="img/service4.png" alt="">
+        
+          </div>
+          <div　class="service-text">
+            <h3>デジタルトランスフォーメーション事業</h3>
+            <p>人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+        
+      
+    </div>
+  
+</main>
+  <div id="contact">
+    <div class="contact-wrap">
+    <h2>お問い合わせ</h2>
+    <p>お仕事のご依頼や採用に関してはお問い合わせにて承っております。</p>
+    <a href="contact.html">お問い合わせ</a>
+    </div>
+  </div>
+
+
+
+
+
+<footer>
+  <div class="footer-flex">
+    <small>&copy; 2020 TECH inc.</small>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="service.html">事業内容</a></li>
+        <li><a href="news.html">ニュース</a></li>
+        <li><a href="blog.html">社員ブログ</a></li>
+        <li><a href="company">会社概要</a></li>
+        <li><a href="recruit.html">採用情報</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+  $(function () {
+    var height = $("header").height();
+    $("body").css("margin-top", height);
+  });
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    $('.menu__button').click(function () {
+      $(this).toggleClass('active');
+
+      if ($(this).hasClass('active')) {
+        $('.menu').addClass('active');
+      } else {
+        $('.menu').removeClass('active');
+      }
+    });
+  });
+</script>
+</body>
+
