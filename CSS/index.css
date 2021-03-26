@@ -1,31 +1,28 @@
-
-
 header {
   display: flex;
   position: fixed;
-  
-  height:70px;
-  width:100%;
-  
-  top:0;
+
+  height: 70px;
+  width: 100%;
+
+  top: 0;
   margin: 0;
-  
-  z-index:10;
+
+  z-index: 10;
 }
 
 .hlink {
   display: flex;
-  height:70px;
+  height: 70px;
   width: 100%;
   background: white;
   position: relative;
-  
 }
 .hlink-logo {
   position: absolute;
   top: 23px;
   left: 30px;
-  
+
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -35,15 +32,13 @@ header {
   opacity: 0.5;
 }
 
-.hlink-list ul{
+.hlink-list ul {
   position: absolute;
   top: 27px;
   right: 20px;
   display: flex;
-  
-  
 }
-.hlink-item{
+.hlink-item {
   margin-right: 30px;
   text-decoration: none;
   color: black;
@@ -53,7 +48,6 @@ header {
   opacity: 0.5;
 }
 
-
 .menu-button {
   display: none;
 }
@@ -62,82 +56,62 @@ header {
   display: none;
 }
 
-
 body {
   font-family: 游ゴシック;
 }
 
-
-
-
-
-
-
-
 /* eyecatch */
 .eyecatch {
-  position:relative;
-  height:520px;
-  width:100%;
+  position: relative;
+  height: 520px;
+  width: 100%;
   overflow: hidden;
 }
 
 .eyecatch-title {
   position: absolute;
   top: 50%;
-  left:50%;
-  transform:translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 80%;
 
-  color:white;
+  color: white;
 }
 .eyecatch-title h1 {
   font-size: 50px;
   /* font-weight: 500; */
-  
-  margin:auto;
-  line-height:80px;
-  
-  
-  
+
+  margin: auto;
+  line-height: 80px;
 }
 .eyecatch-title p {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .eyecatch img {
-  
   height: 520px;
-  width:100vw;
+  width: 100vw;
   object-fit: cover;
-  
 }
-
-
-
 
 /* future */
 .future {
-  background-color:#222222;
-  height:400px;
+  background-color: #222222;
+  height: 400px;
   width: 100%;
   position: relative;
-  
 }
 
 .future-text {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  color:white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
   text-align: left;
   width: 86%;
   margin: auto;
-  
- 
-  
 }
 
 .future-text h3 {
@@ -146,21 +120,13 @@ body {
 }
 
 .future-text p {
-  line-height:24px;
+  line-height: 24px;
 }
-
-
-
-
-
 
 /* サービス */
 
-
 #service h3 {
-  
-  
-  text-align:center;
+  text-align: center;
   font-size: 30px;
   margin-top: 90px;
   margin-bottom: 30px;
@@ -171,30 +137,24 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-
 }
 
-
-
 .service-wrap img {
-  width:500px;
-  height:300px;
+  width: 500px;
+  height: 300px;
 }
 
 .service-wrap ul {
-  width:500px;
+  width: 500px;
   height: auto;
   list-style: none;
-  margin-bottom:10px;
-
+  margin-bottom: 10px;
 }
 
 .service-subtitle {
   font-size: 18px;
   font-weight: bold;
   line-height: 36px;
-
 }
 
 .service-text {
@@ -204,55 +164,50 @@ body {
 .service-button {
   text-align: center;
   margin-top: 60px;
-  margin-bottom:90px;
+  margin-bottom: 90px;
 }
-#service a{
-  background-color:#CD0224;
-  padding:10px 80px;
+#service a {
+  background-color: #cd0224;
+  padding: 10px 80px;
   font-weight: bold;
   color: white;
-  text-decoration:  none;
+  text-decoration: none;
 }
-
 
 /* ニュース */
 #news {
- background-color: #222222;
- height: 450px;
+  background-color: #222222;
+  height: 450px;
 }
 
 .news-wrap {
-  width:84%;
+  width: 84%;
   margin: auto;
 }
 .news-flex {
-  
-  
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 .news-flex h3 {
   margin-top: 80px;
   color: white;
   font-size: 30px;
-  
 }
 
 .news-flex a {
   padding: 10px;
-  background-color: #CD0224;
+  background-color: #cd0224;
   color: white;
   text-decoration: none;
-  margin-top:80px;
-
+  margin-top: 80px;
 }
 .news-text-link {
   display: block;
-  
+
   text-decoration: none;
   background-color: white;
-  padding-left:20px;
+  padding-left: 20px;
   margin-bottom: 10px;
   line-height: 60px;
 }
@@ -261,27 +216,19 @@ body {
   color: black;
 }
 
-
-
-
-
 /* ブログ */
 
-
 #blog h3 {
-  margin-top:80px;
-  margin-bottom:30px;
+  margin-top: 80px;
+  margin-bottom: 30px;
   text-align: center;
-  font-size:30px;
+  font-size: 30px;
 }
-
 
 .blog-flex {
   display: flex;
-  
+
   justify-content: center;
-
-
 }
 .blog-wrap:not(:last-child) {
   margin-right: 20px;
@@ -293,62 +240,54 @@ body {
 .blog-flex img {
   height: 200px;
   width: 340px;
-  
-  
 }
 .blog-subtitle {
   margin-bottom: 10px;
 }
 
 .blog-flex p {
-  font-size:14px;
+  font-size: 14px;
   margin: 10px 0;
 }
 .blog-flex h4 a {
-  text-decoration:none;
+  text-decoration: none;
   color: black;
-  font-size:18px;
+  font-size: 18px;
 }
 .blog-flex h4 a:hover {
   opacity: 0.5;
 }
 
 .blog-button-wrap {
-  margin-top:30px;
+  margin-top: 30px;
   position: relative;
-  
-  height:100px;
-  
+
+  height: 100px;
 }
-
-
 
 .blog-button-wrap a {
   position: absolute;
   top: 50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  background-color: #CD0224;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #cd0224;
   color: white;
   padding: 15px 80px;
-  text-decoration:none;
-
-  
+  text-decoration: none;
 }
 
 /* 会社情報へのリンク */
-
 
 .company-flex {
   display: flex;
   margin-bottom: 60px;
 }
-.company-overview  {
+.company-overview {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color:#CD0224;
+  background-color: #cd0224;
   height: 240px;
   width: 50%;
   text-align: center;
@@ -361,22 +300,21 @@ body {
 
   height: 240px;
   width: 50vw;
-  background-color:#222222;
-  
+  background-color: #222222;
 }
 
-.company-flex a{
-  color:white;
+.company-flex a {
+  color: white;
   text-decoration: none;
   font-size: 24px;
 }
 
 .company-flex a:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 #contact {
-  text-align:center;
+  text-align: center;
   width: 80%;
   margin: auto;
   margin-bottom: 60px;
@@ -391,119 +329,102 @@ body {
   margin-bottom: 40px;
 }
 
-#contact a{
-  display:inline-block;
-  background-color: #CD0224;
+#contact a {
+  display: inline-block;
+  background-color: #cd0224;
   color: white;
   padding: 15px 100px;
-  text-decoration:none;
- 
+  text-decoration: none;
 }
 
 /* フッター */
 .footer-flex {
   background-color: #222222;
   height: 60px;
-  position:relative;
+  position: relative;
   display: flex;
 }
 
-footer small{
+footer small {
   color: white;
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 150px;
 
-  transform: translate(-50%,-50%);
-  
+  transform: translate(-50%, -50%);
+
   font-size: 12px;
-  
-} 
+}
 
-
- footer ul {
-  
+footer ul {
   position: absolute;
   top: 50%;
   right: 60px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   display: flex;
-  
-  
-  
 }
-
 
 footer a {
   text-decoration: none;
   margin-left: 10px;
   font-size: 12px;
-  color:white;
+  color: white;
 }
-
-
 
 footer li:not(:last-child) {
   border-right: 1px solid white;
   padding-right: 10px;
-} 
- 
-
-
-
-
-
+}
 
 @media screen and (max-width: 768px) {
- .hlink-list {
-  display: none;
-}
+  .hlink-list {
+    display: none;
+  }
 
-/* 上からスライドしてくるメニューのCSS */
-nav.menu{
-  display: block;
-  z-index: 2;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: white;
-  color: black;
-  text-align: center;
-  transform: translateX(-100%);
-  transition: all 0.6s;
-  width: 100%;
-  height:100%;
-}
+  /* 上からスライドしてくるメニューのCSS */
+  nav.menu {
+    display: block;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    color: black;
+    text-align: center;
+    transform: translateX(-100%);
+    transition: all 0.6s;
+    width: 100%;
+    height: 100%;
+  }
 
-nav.menu ul{
-  margin: 100px auto 0;
-  padding: 0;
-  width: 100%;
+  nav.menu ul {
+    margin: 100px auto 0;
+    padding: 0;
+    width: 100%;
+  }
 
-}
+  nav.menu ul li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    /* border-bottom: 1px solid black; */
+  }
 
-nav.menu ul li{
-  font-size: 20px;
-  list-style-type: none;
-  padding: 0;
-  width: 100%;
-  /* border-bottom: 1px solid black; */
-}
+  nav.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #4d71db;
+    margin: 1em 0;
+  }
 
-nav.menu ul li a{
-  text-decoration: none;
-  display: inline-block;
-  color: #4D71DB;
-  margin: 1em 0;
-}
+  nav.menu.active {
+    transform: translateY(0%);
+  }
+  /* 上からスライドしてくるメニューのCSS */
 
-nav.menu.active{
-  transform: translateY(0%);
-}
-/* 上からスライドしてくるメニューのCSS */
-
-/* メニューボタンのCSS */
-.menu__button{
+  /* メニューボタンのCSS */
+  .menu__button {
     display: block;
     position: fixed;
     right: 30px;
@@ -514,162 +435,133 @@ nav.menu.active{
     z-index: 3;
     background: white;
     text-align: center;
-}
+  }
 
-.menu__button span{
+  .menu__button span {
     display: block;
     position: absolute;
     width: 36px;
     border-bottom: solid 4px black;
-    -webkit-transition: .35s ease-in-out;
-    -moz-transition: .35s ease-in-out;
-    transition: .35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
     left: 6px;
-}
+  }
 
-.menu__button span:nth-child(1){
-  top:5px;
-}
+  .menu__button span:nth-child(1) {
+    top: 5px;
+  }
 
-.menu__button span:nth-child(2){
-  top:20px;
-}
+  .menu__button span:nth-child(2) {
+    top: 20px;
+  }
 
-.menu__button span:nth-child(3){
-  top:35px;
-}
+  .menu__button span:nth-child(3) {
+    top: 35px;
+  }
 
-.menu__button.active span:nth-child(1){
-     top: 18px;
+  .menu__button.active span:nth-child(1) {
+    top: 18px;
     left: 6px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     transform: rotate(-45deg);
-}
+  }
 
-.menu__button.active span:nth-child(2),
-.menu__button.active span:nth-child(3) {
+  .menu__button.active span:nth-child(2),
+  .menu__button.active span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
-}
-/* ↑メニューボタンのCSS */
+  }
+  /* ↑メニューボタンのCSS */
 
+  /* サービス */
+  .service-wrap {
+    width: 100%;
 
+    display: block;
 
-/* サービス */
-.service-wrap{
- width: 100%;
-
- display:block;
- 
- flex-wrap: no-wrap;
-  
-}
-.service-content {
- width:84%;
- height: auto;
-  margin: 0 auto;
- 
-}
-.service-content ul{
- width:100%;
- height: auto;
- 
- 
-}
-.service-wrap img {
- width: 100%;
-}
+    flex-wrap: no-wrap;
+  }
+  .service-content {
+    width: 84%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .service-content ul {
+    width: 100%;
+    height: auto;
+  }
+  .service-wrap img {
+    width: 100%;
+  }
 
   /* ブログ */
-.blog-flex {
-  display: block;
-  width:85%;
-  margin: 0 auto;
-  justify-content: flex-start;
+  .blog-flex {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: flex-start;
+  }
+
+  .blog-wrap:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .blog-flex img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* 以下フッター */
+  .footer-flex {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer small {
+    position: static;
+  }
+  footer ul {
+    position: absolute;
+    line-height: 30px;
+    right: 180px;
+    display: block;
+    text-align: center;
+  }
+
+  footer a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  footer li:not(:last-child) {
+    border-right: 0;
+  }
 }
-
-.blog-wrap:not(:last-child) {
-  margin-right: 0;
-}
-
-.blog-flex img {
-  height:auto;
-  width: 100%;
-  
-  
-}
-
-
- 
-/* 以下フッター */
- .footer-flex {
-  height: 250px;
-  width: 100%;
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-}
-
-footer small {
-  position:static;
-  
-  
-}
- footer ul{
-  
-  position:absolute;
-  line-height: 30px;
-  right: 180px;
-  display: block;
-  text-align:center;
-  
- }
- 
- footer a {
-   text-decoration: none;
-   padding: 10px;
-   }
- footer li:not(:last-child){
-  border-right: 0;
-  
-
- }
-}
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 600px) {
   .footer-flex {
-  display: block;
-  text-align: center;
-  
-  
-}
+    display: block;
+    text-align: center;
+  }
 
-footer small{
-  
-  text-align:center;
-  position:static;
-  transform:none;
-} 
+  footer small {
+    text-align: center;
+    position: static;
+    transform: none;
+  }
 
-footer ul {
-  text-align:center;
-  line-height: 30px;
-  position: static;
-  
-  display: block;
-  transform: none;
+  footer ul {
+    text-align: center;
+    line-height: 30px;
+    position: static;
 
-  
-}
+    display: block;
+    transform: none;
+  }
 }
