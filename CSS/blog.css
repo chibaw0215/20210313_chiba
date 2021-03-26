@@ -387,7 +387,7 @@ footer small {
   position:static;
 }
  footer ul{
-  
+  line-height: 30px;
   position:absolute;
   right: 180px;
   display: block;

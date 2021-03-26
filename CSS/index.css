@@ -621,6 +621,7 @@ footer small {
  footer ul{
   
   position:absolute;
+  line-height: 30px;
   right: 180px;
   display: block;
   text-align:center;
@@ -647,20 +648,28 @@ footer small {
 
 
 @media screen and (max-width: 600px) {
-
   .footer-flex {
-    display:block;
-    text-align:center;
-  }
-
-  footer small {
-    width: 100px;
-    position: static;
-    
-  }
-
-  footer a {
+  display: block;
   text-align: center;
-}
+  
+  
 }
 
+footer small{
+  
+  text-align:center;
+  position:static;
+  transform:none;
+} 
+
+footer ul {
+  text-align:center;
+  line-height: 30px;
+  position: static;
+  
+  display: block;
+  transform: none;
+
+  
+}
+}
